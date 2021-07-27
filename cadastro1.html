@@ -1,0 +1,182 @@
+<html>
+	<head>
+		<title>Petshop da Belinha - Cadastro</title>
+		<link rel="shortcut icon" href="imagens/cachorro.svg"/>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<font face="Riffic Free" color="#ffb100" size=4>
+        	<center> <h1>Cadastro</h1></center>
+
+
+        	<form action="cadastro.php" method="post" enctype="multipart/form-data">
+
+        		<h2>Dados Pessoais</h2>
+
+        		<div>
+        			<label for="">Nome:</label>
+        			<input name="nome" required="required" placeholder="Digite seu nome" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Data de Nascimento (DD/MM/AA):</label>
+        			<input name="data_nasc" required="required" placeholder="Digite sua data de nascimento" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Telefone (DDD XXXXXXXX):</label>
+        			<input name="telefone" required="required" placeholder="Digite seu numero de telefone" type="text">
+        		</div>
+
+        		<br/>
+
+        		<hr color="#0267BD"/>
+
+        		<h2>Dados do seu pet</h2>
+
+
+        		<div>
+        			<label for=""> Nome:</label>
+        			<input name="nome_pet" required="required" placeholder="Digite o nome do seu pet" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Data de nascimento:</label>
+        			<input name="nasc_pet" required="required" placeholder="Digite a data de nascimento do seu pet" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Raça:</label>
+        			<input name="raca_pet" required="required" placeholder="Digite a raça do seu pet" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+					<label for="">Digite a sua observação sobre seu pet :</label>
+
+					<br/>
+					<br/>
+
+					<textarea name="observacao" placeholder="Digite a observação" cols="25" rows="5"></textarea>
+				</div>
+
+        		<br/>
+
+        		<hr color="#0267BD"/>
+
+        		<h2>Endere&ccedilo</h2>
+
+        		<div>
+        			<label for="">Rua:</label>
+        			<input name="rua" required="required" placeholder="Digite a sua rua" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> N&uacutemero:</label>
+        			<input name="numero_rua" required="required" placeholder="Digite o numero da sua casa" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Bairro:</label>
+        			<input name="bairro" required="required" placeholder="Digite o seu bairro" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for="">Complemento:</label>
+        			<input name="complemento" required="required" placeholder="Complemento" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for="">CEP (XXXXX-XXX):</label>
+        			<input name="cep" required="required" placeholder="Digite o seu CEP" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for="">Cidade:</label>
+        			<input name="cidade" required="required" placeholder="Digite a sua cidade" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for="">Estado:</label>
+        			<input name="estado" required="required" placeholder="Digite o seu estado" type="text">
+        		</div>
+
+        		<br/>
+
+
+        		<hr color="#0267BD"/>
+
+
+
+        		<h2>Dados da conta (login)</h2>
+
+
+
+        		
+        		<div>
+        			<label for=""> E-mail :</label>
+        			<input name="email" required="required" placeholder="Digite seu E-mail" type="text">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Senha:</label>
+        			<input name="senha_user" id="senha_user" required="required" placeholder="Digite sua senha" type="password">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for=""> Confirme sua senha:</label>
+        			<input name="senha_confirm" required="required" placeholder="Confirme sua senha" type="password">
+        		</div>
+
+        		<br/>
+
+        		<div>
+        			<label for="emails">
+        				<input type="checkbox" name="promocao" id="promocao" value=1>Deseja receber mensagens promocionais na sua caixa de E-mail?
+        			</label>
+        		</div>
+
+        		<br/>
+
+                <div>
+                    <label for="sessao">
+                        <input type="checkbox" name="sessao" id="sessao" value=1>Deseja manter-se conectado?
+                    </label>
+                </div>
+
+                <br/>
+
+        		<div>
+                    <button name="enviar" value="1" type="submit">Enviar</button>
+                </div>
+
+
+        	</form>
+        </font>
+	</body>
+</html>
